@@ -1,0 +1,39 @@
+body {
+    font-color: #aa671d;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 320px;
+}
+
+.btn {
+    background-color: fff;
+}
+
+.btn-primary {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+    color: #553d0d;
+    background-color: fff;
+    border-color: #553d0d;
+
+}
+ .adress {
+    display: flex;
+    font-size: 1em;
+    justify-content: space-evenly;
+ }
