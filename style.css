@@ -84,18 +84,20 @@ body {
   }
 */  
 
+
 .header {
   display: flex;
   justify-content: center;
 }
 
-#ourcoffees h2 {
+.headlines h2 {
   text-align: center;
   color: #fff;
-  background-image: url(img/coffee-header.jpg);
+  /*background-image: url(img/coffee-header.jpg);*/
   padding: 5%;
   background-position: center;
   background-size: cover;
+  font-weight: bolder;
 }
 
 .text {
@@ -105,6 +107,52 @@ body {
 }
 
 .text h5 {
-   text-decoration: underline;
+   
+  color: white;
+   background-color: #aa671d;
    
 } 
+
+.headlines h2 {
+  text-align: center;
+  color: #fff;
+  background-image: url(img/coffee-header.jpg);
+  padding: 5%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*carousel*/
+
+.carousel {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-caption  {
+  color: #553d0d;
+
+}
+
+/*TEAM*/
+
+.w3-row {
+  margin: 5%;
+}
+.w3-container {
+margin-top: 0.4em;
+margin-bottom: 1rem;
+}
+.animate__animated.animate__fadeInLeftBig {
+  --animate-duration: 2s;
+}
+
+.animate__animated.animate__fadeInRightBig {
+  --animate-duration: 2s;
+}
+
+.names {
+  background: #aa671d;
+  color: white;
+}
